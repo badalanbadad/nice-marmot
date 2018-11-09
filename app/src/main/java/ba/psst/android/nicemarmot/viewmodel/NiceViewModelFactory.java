@@ -4,13 +4,18 @@ import android.arch.lifecycle.ViewModel;
 import android.arch.lifecycle.ViewModelProvider;
 import android.support.annotation.NonNull;
 
+import javax.inject.Inject;
+import javax.inject.Singleton;
+
 import ba.psst.android.nicemarmot.auth.ui.AuthViewModel;
 import ba.psst.android.nicemarmot.data.Repository;
 
+@Singleton
 public class NiceViewModelFactory implements ViewModelProvider.Factory {
 
-    private Repository mRepository;
+    private final Repository mRepository;
 
+    @Inject
     public NiceViewModelFactory(Repository repository) {
         mRepository = repository;
     }

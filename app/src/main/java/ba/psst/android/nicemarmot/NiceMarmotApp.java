@@ -5,6 +5,7 @@ import android.app.Application;
 import ba.psst.android.nicemarmot.di.DaggerAppComponent;
 import ba.psst.android.nicemarmot.di.AppComponent;
 import ba.psst.android.nicemarmot.di.AppModule;
+import ba.psst.android.nicemarmot.di.FirebaseModule;
 
 public class NiceMarmotApp extends Application {
 
@@ -17,6 +18,7 @@ public class NiceMarmotApp extends Application {
         appComponent = DaggerAppComponent
                 .builder()
                 .appModule(new AppModule(this))
+                .firebaseModule(new FirebaseModule())
                 .build();
     }
 

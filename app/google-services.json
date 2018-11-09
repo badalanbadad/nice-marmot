@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "130318908954",
+    "firebase_url": "https://nicemarmotapp.firebaseio.com",
+    "project_id": "nicemarmotapp",
+    "storage_bucket": "nicemarmotapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130318908954:android:5c513a07d7bc400b",
+        "android_client_info": {
+          "package_name": "ba.psst.android.nicemarmot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130318908954-oqd7kaapnv1ljgl53t2m2vh2qcu59abi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDslPKIiawXlj8zRuDzyGnPI_2ZF_aSCFE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
